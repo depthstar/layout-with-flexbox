@@ -4,6 +4,9 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
+    /* for debugging/positioning, remove at launch */
+    border: 1px solid white;
 }
 h1 {
     font-family:Helvetica;
