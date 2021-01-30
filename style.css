@@ -5,9 +5,72 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    /* for debugging/positioning, remove at launch */
-    border: 1px solid white;
 }
-h1 {
-    font-family:Helvetica;
+
+
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
 }
+
+#logo {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: left;
+}
+
+.nav {
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+nav span a {
+    display: inline-block;
+    padding: 20px 10px;
+    color: white;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.mission-background {
+    display: flex;
+    background-image: url("media/images/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission {
+    background-color: black;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.teaofthemonth {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.tea-pics .item {
+    width: 300px;
+    height: auto;
+}
+.tea-pics span img {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
