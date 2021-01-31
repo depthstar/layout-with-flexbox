@@ -49,6 +49,7 @@ nav span a {
     width: 100%;
     flex-direction: column;
     justify-content: center;
+    width: 1000px;
 }
 
 .mission {
