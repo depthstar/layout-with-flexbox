@@ -57,20 +57,59 @@ nav span a {
     padding-bottom: 30px;
 }
 
-.teaofthemonth {
-    display: flex;
-    justify-content: space-around;
+.teaofmonth {
     padding-top: 70px;
 }
 
-.tea-pics .item {
-    width: 300px;
-    height: auto;
-}
-.tea-pics span img {
-    width: 300px;
-    height: 200px;
-    padding: 5px;
+.tea-pics {
+    display: flex;
     flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
 }
 
+.teaofmonth {
+    width: 1000px;
+    padding-bottom: 50px;
+}
+.tea {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.tea img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    
+}
+
+.locations-container {
+    display: flex;
+    width: 1000px;
+    background-image: url("media/images/img-locations-background.jpg");
+    height: 500px;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.loccard {
+    background-color: black;
+    width: 300px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    float: left;
+    padding: 20px;
+}
